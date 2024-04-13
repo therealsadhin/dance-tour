@@ -1,0 +1,427 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+/* basic styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+/* header work  */
+
+header{
+    background: #303030;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background: #303030; 
+    
+  
+}
+.uni_margin{
+    margin:0px 50px;
+}
+/* logo resizing  */
+.logo_img img{
+    height: auto;
+    width: 100px;
+    margin: 18px;
+}
+ /* nav bar designing  */
+
+.nav_bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+ }
+ .nav_bar ul li{
+    margin-top:10PX ;
+    padding: 0px 15px ;
+    list-style: none;
+ }
+ .nav_bar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+ }
+ .search{
+    margin-top: 30PX;
+ }
+
+ /* hero sectionhere  */
+.top-hero-section{
+    height: 80vh;
+    width: 100%;
+}
+.top-hero-section{
+    background-image: url("../images/hero-img.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.top-hero-title h1{
+    
+    font-size: 80px;
+    text-align: justify;
+    color: #FFFFFF;
+
+}
+
+.top-hero-section .top-hero-title .top-description {
+    width: 500px;
+    color: white;
+    margin: 0px;
+    
+}
+.register a{
+    text-decoration: none;
+    color: white ;
+    
+}
+.register{
+    margin: 20px;
+    background:#ff6508;
+    width :150px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* dance tour section  */
+
+.dance-tour{
+    height: 100%;
+    width: 100%;
+    background-color: #ff6508;
+    background-image: url(../images/dotetd_up.png);
+    background-repeat:no-repeat;
+    background-position: top left;
+    flex-wrap: wrap;
+    
+}
+.dance-tour-title h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 50px;
+   color: #FFFFFF ;
+   text-transform: uppercase;
+
+}
+.dance-tour-title p{
+    color: #FFFFFF ;
+    font-size: 20px;
+    margin: 20px 10px;
+    text-align: center;
+}
+.h1-dancetour h1{
+    padding-top: 100px;
+}
+
+
+/* service section  */
+.service-wrapper{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+.service{
+    align-items: center;
+    background-color: #303030;
+    width: 20%;
+}
+.service .banner-img img{
+    width: 100%;
+    height: 20rem;
+}
+.service-title h1{
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+    padding: .5rem 0rem;
+}
+.service-description p{
+    text-align: justify;
+    margin: .5rem;
+    color: #FFFFFF;
+}
+/* pricing star here  */
+
+.pricing{
+    height: 100%;
+    width: 100%;
+    background-color: #303030;
+    background-image: url(../images/dotetd_up.png);
+    background-repeat:no-repeat;
+    background-position: top left;
+    flex-wrap: wrap;
+    
+}
+.pricing-title h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 50px;
+   color: #FFFFFF ;
+   text-transform: uppercase;
+
+}
+.h1-pricing h1{
+    padding-top: 100px;
+}
+.pricing-title p{
+    color: #FFFFFF ;
+    font-size: 20px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+/* pricing start  */
+
+.pricing-wrapper{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+.cost{
+    align-items: center;
+    background-color:#E8631C;
+    width: 20%;
+    border-radius: .5rem;
+}
+.cost .banner-img img{
+    width: 30%;
+    height: 5rem;
+    margin-left: 5rem;
+margin-top: 2rem;
+}
+.cost-title h1{
+    font-size: larger;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding: .5rem 0rem;
+}
+.cost-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cost-description p{
+    text-align: justify;
+    margin: .5rem;
+    color: #FFFFFF;
+}
+.price{
+    background-color: #303030;
+    width: 80%;
+    margin: 2rem;
+    text-align: center;
+    padding: .6rem;
+    border-radius: .2rem;
+    color: #FFFFFF;
+}
+/* pricing end  */
+/* amazing dance start here  */
+.amazing-dance-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-container{
+ height: 100vh;  
+}
+.left-container img{
+    height: 100vh;
+}
+.right-container {
+    text-align: center;
+}
+.right-container h1{
+    font-weight: 1000;
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+.right-container p{
+    color: #FFFFFF;
+    margin: 2rem;
+    text-align: justify;
+    text-wrap: wrap;
+}
+.right-container button{
+    background: #303030;
+    color: #FFFFFF;
+    padding: 1rem;
+    width: 10rem;
+    cursor: pointer;
+    border: none;
+    border-radius: .5rem;
+}
+/* best dance start here  */
+.best-dance-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* our-statistic start here  */
+.our-statistic{
+    height: 80vh;
+    width: 100%;
+    background: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+.our-statistic .stat-heading{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    font-size: 3rem;
+}
+.our-statistic p{
+    text-wrap: wrap;
+    padding-bottom: 3rem;
+}
+.stat-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.stats p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.stats h1{
+    font-size: 3rem;
+}
+.herbert-simon{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/shape_8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+}
+.herbert-center p{
+ font-size: 1.5rem;
+ padding: 0 5rem;
+}
+.herbert-center h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* subscribe start here  */
+.subscribe{
+    height: 80vh;
+    width: 100%;
+    background-color: #ff6508;
+    background-image: url(../images/side_dotted.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    
+}
+.subscribe h1{
+    font-size: 4rem;
+}
+.subscribe p{
+    font-size:1.5rem;
+    text-wrap: wrap ;
+    padding: 0 5rem;
+}
+.email-subscribe{
+  margin:3rem;
+  font-size: 2rem;
+  display: inline;
+  background-color: #303030;
+}
+.email-subscribe input{
+    border: none;
+    width: 25rem;
+    padding: 1rem;
+    text-align: center;
+    margin-top: -3rem;
+    height: 3.8rem;
+    overflow: hidden;
+}
+label{
+    margin-top: .5rem;
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+input:focus{
+    outline: none;
+}
+/* footer section start here  */
+footer{
+    height: 60vh;
+    width: 100%;
+    background-color: #303030;
+    color: #FFFFFF;
+    display: flex;
+    text-align: justify;
+    gap: 1rem;
+}
+
+.musicology{
+    width: 25%;
+    padding-top: 5rem;
+
+}
+
+.musicology h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.icons{
+    background-color: #fff;
+    margin-top: 1.5rem;
+}
+
+.footers{
+    width: 25%;
+    padding-top: 5rem;
+}
+.footers ul{
+    list-style: none;
+    padding-top: .5rem;
+}
